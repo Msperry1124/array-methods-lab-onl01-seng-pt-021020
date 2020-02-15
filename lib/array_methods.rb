@@ -1,5 +1,4 @@
 def using_include(array, element)
-array = ["wow", "I", "am", "really", "learning", "arrays!"]
 puts array.include "wow"
 puts array.include? "Tardis"
 end
