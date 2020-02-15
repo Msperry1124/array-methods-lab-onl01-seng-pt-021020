@@ -1,8 +1,7 @@
 require 'pry'
 def using_include(array, element)
 binding.pry
-puts array_"wow".include?
-puts array_"Tardis".include?
+array.include?(element)
 end
 
 def using_sort(array)
